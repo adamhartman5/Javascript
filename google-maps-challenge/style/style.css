@@ -33,7 +33,7 @@ body {
     background-color: #454E53;
 }
 
-#zip-code-input{
+.search-container input{
     width: 100%;
     font-size: 25px;
     background-color: transparent;
