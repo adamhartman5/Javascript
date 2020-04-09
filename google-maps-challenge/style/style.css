@@ -23,6 +23,7 @@ body {
 }
 
 .search-container {
+    border-radius: 30px;
     position: absolute;
     z-index: 100;
     top: 230px;
@@ -30,5 +31,12 @@ body {
     width: 400px;
     height: 60px;
     background-color: #454E53;
-    border-radius: 30px;
+}
+
+#zip-code-input{
+    width: 100%;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    color: white;
 }
