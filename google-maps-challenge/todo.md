@@ -8,7 +8,7 @@
 
 - Add the text store locator DONE
 
-- Add input box
+- Add input box DONE
 
 - Add store list container
 
