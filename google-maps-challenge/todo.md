@@ -6,7 +6,7 @@
 
 - Import Google Maps into the window DONE
 
-- Add the text store locator
+- Add the text store locator DONE
 
 - Add input box
 
