@@ -9,3 +9,13 @@ body {
     width: 100%;
     height: 100%;
 }
+
+.title {
+    position: absolute;
+    z-index: 100;
+    top: 230px;
+    left: 100px;
+    width: 400px;
+    height: 60px;
+
+}
