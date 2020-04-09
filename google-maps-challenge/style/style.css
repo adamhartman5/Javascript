@@ -37,6 +37,8 @@ body {
     flex-grow: 1;
     display: flex;
     align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .search-container input{
@@ -45,4 +47,8 @@ body {
     background-color: transparent;
     border: none;
     color: white;
+}
+
+.search-container input:focus{
+    outline: none;
 }
