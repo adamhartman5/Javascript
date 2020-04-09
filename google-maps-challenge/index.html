@@ -5,9 +5,24 @@
         <script src="js/index.js"></script>
     </head>
     <body>
-        I'M READY LETS GO!
 
 
 
+
+
+        <div id= "map" style="width: 100%; height: 90%;"></div>
+        <script>
+            function initMap() {
+                var sydney = {lat: -33.863276, lng: 151.107977};
+                map = new google.maps.Map(document.getElementById('map'), {
+                    center: sydney,
+                    zoom: 11,
+                    mapTypeId: 'roadmap',
+                });
+            }
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+        </script>
     </body>
 </html>
