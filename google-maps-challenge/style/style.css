@@ -21,3 +21,14 @@ body {
     left: 100px;
 
 }
+
+.search-container {
+    position: absolute;
+    z-index: 100;
+    top: 230px;
+    left: 100px;
+    width: 400px;
+    height: 60px;
+    background-color: #454E53;
+    border-radius: 30px;
+}
