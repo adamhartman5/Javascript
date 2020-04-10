@@ -1,16 +1,12 @@
 # Plan Of Action
 
-- Create Wireframe DONE
+- Style the individual store item in the stores list
 
-- Set Up the base HTML structure DONE
+- Show all of the stores in the stores list based on real world data
 
-- Import Google Maps into the window DONE
+- Show the marker based on real world store data
 
-- Add the text store locator DONE
+- MAYBE: Show the info window when you click on the individual store
 
-- Add input box DONE
-
-- Add store list container DONE
-
-- Add individual store container
+- MAYBE: Add a beautiful transition on the hover of the individual store
 
