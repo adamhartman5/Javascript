@@ -73,6 +73,7 @@ body {
 
 .store-container {
     border-bottom: 1px solid #979797;
+    display: flex;
 }
 
 .store-address {
@@ -91,6 +92,12 @@ body {
     margin-bottom: 15px;
 }
 
+.store-number-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .store-number {
     width: 30px;
     height: 30px;
@@ -101,4 +108,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.store-info-container {
+    flex-grow: 1;
 }
