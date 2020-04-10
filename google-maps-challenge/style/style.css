@@ -90,3 +90,15 @@ body {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+.store-number {
+    width: 30px;
+    height: 30px;
+    background-color: #454E53;
+    color: #B5ADAD;
+    border-radius: 50%;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
