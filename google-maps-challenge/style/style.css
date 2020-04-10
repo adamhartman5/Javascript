@@ -81,6 +81,10 @@ body {
     margin-top: 30px;
 }
 
+.store-address span{
+    display: block;
+}
+
 .store-phone-number {
     color: #B5ADAD;
     margin-top: 15px;
