@@ -68,6 +68,7 @@ body {
     border-radius: 30px;
     bottom: 20px;
     display: flex;
+    padding-bottom: 30px;
     overflow-y: hidden;
 }
 
