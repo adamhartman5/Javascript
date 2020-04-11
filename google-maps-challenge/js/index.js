@@ -37,3 +37,18 @@ function displayStores() {
         document.querySelector('.stores-list').innerHTML = storesHtml
     }
 }
+
+function showStoresMarkers() {
+    for(let [index, store] of stores.entries()){
+        var latlng = new google.maps.LatLng(
+            parseFloat(markerNodes[i].getAttributes("lat")),
+            parseFloat(markerNodes[i].getAttributes("lng")));
+        var name = store['name'];
+        var address = store['addressLines'][0];
+        createMarker(name, address)
+    }
+}
+
+function createMarker() {
+
+}
