@@ -2,6 +2,10 @@ window.onload = () => {
     displayStores();
 }
 
+var map;
+var markers = [];
+var infoWindow;
+
 function initMap() {
     var losAngeles = {lat: 34.063380, lng: -118.358080};
     map = new google.maps.Map(document.getElementById('map'), {
@@ -41,14 +45,23 @@ function displayStores() {
 function showStoresMarkers() {
     for(let [index, store] of stores.entries()){
         var latlng = new google.maps.LatLng(
-            parseFloat(markerNodes[i].getAttributes("lat")),
-            parseFloat(markerNodes[i].getAttributes("lng")));
-        var name = store['name'];
-        var address = store['addressLines'][0];
-        createMarker(name, address)
+            store.coordinates.latitude,
+            store.coordinates.longitude);
+        var name = store.name;
+        var address = store.address[0];
+        createMarker(latlng, name, address, index+1)
     }
 }
 
-function createMarker() {
-
+function createMarker(latlng, name, address, index) {
+    var html = "<b>" + name + "</b> <br/>" + address;
+    var marker = new google.maps.Marker({
+      map: map,
+      position: latlng
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+      infoWindow.setContent(html);
+      infoWindow.open(map, marker);
+    });
+    markers.push(marker);
 }
