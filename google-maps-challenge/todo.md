@@ -1,12 +1,12 @@
 # Plan Of Action
 
-- Style the individual store item in the stores list DONE
+- Complete the styling for the marker info window
 
-- Show all of the stores in the stores list based on real world data DONE
+- Open the info window marker on store selection in stores list
 
-- Show the marker based on real world store data DONE
+- Allow a user to search for the stores in a zip code
 
-- MAYBE: Show the info window when you click on the individual store
+- Add a beautiful transition on the hover of an individual store
 
-- MAYBE: Add a beautiful transition on the hover of the individual store
+**DONE**
 
