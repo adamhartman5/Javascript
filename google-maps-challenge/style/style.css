@@ -142,4 +142,18 @@ body {
 
 .store-info-address, .store-info-phone {
     margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: #1985A1;
+    color: white;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
 }

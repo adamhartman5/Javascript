@@ -70,7 +70,7 @@ function createMarker(latlng, name, address, openStatusText, phoneNumber, index)
                 ${openStatusText}
             </div>
             <div class="store-info-address">
-                <div class="circle>
+                <div class="circle">
                     <i class="fas fa-location-arrow"></i>
                 </div>
                 ${address}
