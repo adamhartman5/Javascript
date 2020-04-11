@@ -13,21 +13,23 @@ function initMap() {
 
 function displayStores() {
     var storesHtml = '';
-    for(var store of stores){
+    for(let [index, store] of stores.entries()){
+        var address = store['addressLines'];
+        var phone = store['phoneNumber'];
         storesHtml += `
             <div class="store-container">
                 <div class="store-info-container">
                     <div class="store-address">
-                        <span>8480 Beverly Blvd</span>
-                        <span>Los Angeles, CA 90048</span>
+                        <span>${address[0]}</span>
+                        <span>${address[1]}</span>
                     </div>
                     <div class="store-phone-number">
-                        727-867-5309
+                        ${phone}
                     </div>
                 </div>
                 <div class="store-number-container">
                     <div class="store-number">
-                        1
+                        ${index + 1}
                     </div>
                 </div>
             </div>
